@@ -1,0 +1,22 @@
+.avatar-income {
+  color: white;
+  background-color: #00897b;
+    width: 100%;
+
+}
+
+.avatar-expense {
+  color: white;
+  background-color: #d32f2f;
+    width: 100%;
+
+}
+
+
+.list {
+  max-height: 110px; /* Increased from 150 */
+  overflow-y: auto;
+  padding: 0px;
+  margin: 40px;
+  width: 100%;
+}

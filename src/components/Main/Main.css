@@ -1,0 +1,30 @@
+.media {
+  height: 0;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.expand {
+  transform: rotate(0deg);
+  margin-left: auto;
+  transition: transform 150ms ease-in-out;
+  /* 150ms is close to theme.transitions.duration.shortest */
+}
+
+.expandOpen {
+  transform: rotate(180deg);
+}
+
+.cartContent {
+  padding-top: 0;
+}
+
+
+.root {
+  max-width: 410px;  /* ⬅️ reduce this number to make it smaller */
+  max-height:600px;
+  width: 100%;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,41 @@
+.form-card {
+  max-width: 400px; /* reduced from 800px */
+  margin: 5px auto;
+  padding: 6px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  flex: 1 1 100%;
+}
+
+.create-button {
+  margin-top: 16px;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .form-group {
+    flex: 1 1 100%;
+  }
+
+  .form-card {
+    max-width: 90%;
+    padding: 16px;
+  }
+}
